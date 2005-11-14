@@ -8,7 +8,7 @@
 Summary:	Unicode::UTF8simple - Conversions to/from UTF8 from/to charactersets
 Name:		perl-Unicode-UTF8simple
 Version:	1.06
-Release:	0.1
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
