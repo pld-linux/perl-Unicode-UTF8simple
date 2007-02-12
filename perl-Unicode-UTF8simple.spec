@@ -6,7 +6,7 @@
 %define	pdir	Unicode
 %define	pnam	UTF8simple
 Summary:	Unicode::UTF8simple - Conversions to/from UTF-8 from/to character sets
-Summary(pl):	Unicode::UTF8simple - konwersje do/z UTF-8 z/do ró¿nych zestawów znaków
+Summary(pl.UTF-8):   Unicode::UTF8simple - konwersje do/z UTF-8 z/do rÃ³Å¼nych zestawÃ³w znakÃ³w
 Name:		perl-Unicode-UTF8simple
 Version:	1.06
 Release:	1
@@ -30,15 +30,15 @@ Unicode::UTF8simple is written in plain Perl (no C code) and will
 work with any Perl 5 version. It is just slightly slower than
 Encode.
 
-%description -l pl
-Ten pakiet udostêpnia funkcjê do konwersji UTF-8 dla wersji Perla
-pocz±wszy od 5.00. Zosta³ napisany g³ównie do u¿ywania z perlem od
-5.00 do 5.6.0, jako ¿e te wersje Perla nie obs³uguj± Unicode::MapUTF8
+%description -l pl.UTF-8
+Ten pakiet udostÄ™pnia funkcjÄ™ do konwersji UTF-8 dla wersji Perla
+poczÄ…wszy od 5.00. ZostaÅ‚ napisany gÅ‚Ã³wnie do uÅ¼ywania z perlem od
+5.00 do 5.6.0, jako Å¼e te wersje Perla nie obsÅ‚ugujÄ… Unicode::MapUTF8
 i Encode.
 
 Unicode::UTF8simple jest napisany w czystym Perlu (bez kodu w C) i
-bêdzie dzia³aæ z dowoln± wersj± Perla 5. Jest tylko trochê wolniejszy
-ni¿ Encode.
+bÄ™dzie dziaÅ‚aÄ‡ z dowolnÄ… wersjÄ… Perla 5. Jest tylko trochÄ™ wolniejszy
+niÅ¼ Encode.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
