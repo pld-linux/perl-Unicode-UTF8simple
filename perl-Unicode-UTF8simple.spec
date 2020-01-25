@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Unicode
 %define	pnam	UTF8simple
 Summary:	Unicode::UTF8simple - Conversions to/from UTF-8 from/to character sets
